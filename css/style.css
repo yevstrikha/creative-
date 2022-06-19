@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_banner{
+    background-image: url(../images/11.png);
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    padding-top: 300px;
+}
+.main_banner.banner_2{
+    background-image: url(../images/12.png);
+}
+.main_banner.banner_3{
+    background-image: url(../images/13.png);
+}
+.main_banner.banner_4{
+     background-image: url(../images/14.png);
+ }
+.container{
+    margin: auto;
+    max-width: 1110px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 31px;
+}
+.main_banner h1{
+    font-family: 20 Kopeek Book;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.main_banner p{
+    font-family: 20 Kopeek Book;
+    font-size: 34px;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-bottom: 65px;
+}
+.main_banner .btn{
+    display: inline-block;
+    padding:23px 47px 23px 47px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_text{
+    display: flex;
+}
+.logo_text p{
+    margin-left: 22px;
+    font-family: 20 Kopeek;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul span{
+    font-family: 20 Kopeek;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    border-radius: 15px;
+    border: solid #fff 1px;
+    padding: 7px 30px;
+}
+header .social{
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    display: inline-block;
+}
+header li{
+    margin-left: 23px;
+}
