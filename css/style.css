@@ -1,14 +1,44 @@
+@font-face {
+    font-family: '20 Kopeek Book';
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek.woff2') format('woff2'),
+    url('../fonts/20Kopeek.woff') format('woff'),
+    url('../fonts/20Kopeek.ttf') format('truetype'),
+    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 .main_banner{
     background-image: url(../images/11.png);
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    padding-top: 300px;
+    padding-top: 20%;
 }
 .main_banner.banner_2{
     background-image: url(../images/12.png);
@@ -31,7 +61,7 @@ header{
     padding-top: 31px;
 }
 .main_banner h1{
-    font-family: 20 Kopeek Book;
+    font-family: '20 Kopeek Book';
     font-size: 55px;
     line-height: 55px;
     letter-spacing: 0em;
@@ -40,7 +70,7 @@ header{
     margin-bottom: 20px;
 }
 .main_banner p{
-    font-family: 20 Kopeek Book;
+    font-family: '20 Kopeek Book';
     font-size: 34px;
     line-height: 37px;
     letter-spacing: 0em;
@@ -53,7 +83,7 @@ header{
     padding:23px 47px 23px 47px;
     border-radius: 40px;
     background-color: #fff;
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -62,7 +92,14 @@ header{
     color: #181818;
     text-decoration: none;
     margin-right: 20px;
+    transition: 0.5s;
 }
+.main_banner .btn:hover{
+    background-color: #324aee;
+    color: white;
+}
+
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -72,7 +109,7 @@ header .container{
 }
 .logo_text p{
     margin-left: 22px;
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 15px;
     font-weight: 400;
     line-height: 19px;
@@ -91,7 +128,7 @@ header li{
     align-items: center;
 }
 header ul span{
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -112,3 +149,517 @@ header .social{
 header li{
     margin-left: 23px;
 }
+
+.style{
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background-color: #fff;
+}
+.style h2{
+    font-family: '20 Kopeek Book';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.style_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.style_img{
+    max-width: 635px;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.style_text p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 20px;
+}
+
+               /*//// !*LOGO AND NAME*! ////*/
+.logo_name{
+    margin-bottom: 120px;
+}
+.logo_name h2{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-bottom: 40px;
+}
+.logo_name ul{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_name ul li{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    display: flex;
+    /*margin-right: 30px;*/
+    max-width: 122px;
+}
+.logo_name ul li:last-child{
+    margin-right: 0;
+    margin-left: 90px;
+    margin-bottom: 16px;
+    max-width: 300px;
+    width: 100%;
+}
+.logo_name li span{
+    max-width: 260px;
+    width: 100%;
+}
+.logo_name ul li p:nth-child(3){
+    max-width: 122px}
+.logo_name ul li:first-child{
+    /*margin-right: 67px;*/
+}
+.logo_name ul p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    padding-top: 25px;
+    margin-left: 8px;
+}
+.logo_name span{
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    max-width: 260px;
+    width: 100%;
+}
+
+.style_cost{
+    padding-bottom: 133px;
+}
+
+.style_cost .container{
+    display: flex;
+    justify-content: space-between;
+}
+.style_cost_img h2{
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: '20 Kopeek Book';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: black;
+}
+.style_cost_text{
+    padding-top: 55px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-right: 75px;
+}
+.style_cost_text p{
+    padding-left: 13px;
+    padding-right: 15px;
+}
+.text_span{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color:#2B59C3;
+    display: inline-block;
+    padding: 11px 7px 11px 13px;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+.portfolio{
+text-align: center;
+    padding-bottom: 100px;
+}
+.portfolio_item img{
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.project_link{
+    display: flex;
+    margin-bottom: 3.5px;
+    align-items: center;
+}
+ h3{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-right: 90px;
+}
+.portfolio_item p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    max-width: 233px;
+    margin-bottom: 100px;
+}
+.portfolio_item p:last-of-type{
+    margin-bottom: 50px;
+}
+.project_link a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #181818;
+    border: solid 1px #181818;
+    border-radius: 40px;
+    text-align: center;
+    padding: 23px 47px;
+    transition: 0.5s;
+}
+.project_link a:hover{
+    background-color: #2B59C3;
+    color: #fff;
+    border: solid 1px #2B59C3;
+
+}
+.portfolio_more{
+    display: inline-block;
+    text-decoration: none;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    padding: 23px 47px;
+    background-color: #2B59C3;
+    transition: 0.5s;
+}
+.portfolio_more:hover{
+    background-color: #287cb0;
+}
+
+.gide_line {
+    padding-bottom: 77px;
+}
+h2{
+    margin-bottom: 15px;
+    font-family: '20 Kopeek Book';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.gide_about{
+    display: flex;
+    justify-content: space-between;
+}
+.gide_img{
+    max-width: 635px;
+    width: 100%;
+    margin-right: 16px;
+}
+.gide_text p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.gide_text p:last-of-type{
+    padding: 0 25px 0 14px;
+}
+.gide_first_text{
+    padding: 11px 39px 18px 14px;
+    background-color: blue;
+    border-radius: 4px;
+    color: #181818;
+}
+h4{
+    font-family: '20 Kopeek Book';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.gide_first_text p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+                /*APPLICATION */
+.application{
+    padding-bottom: 150px;
+}
+.application h2{
+    margin-bottom: 11px;
+}
+.application h4{
+    color: #181818;
+    margin-bottom: 27px;
+}
+.application label{
+    display: none;
+}
+
+.l_name_form{
+    margin: 0 30px;
+}
+.l_name_form, .f_name_form{
+    max-width: 350px;
+    width: 100%;
+    display: inline-block;
+}
+.application input{
+    padding: 23px 29px;
+    border-radius: 10px;
+    border: solid 1px #181818;
+    width: 100%;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868686;
+}
+.application .btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    padding: 23px 47px;
+    background-color: #2B59C3;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.application .btn:hover{
+    background-color: #658be3;
+    color: #333333;
+}
+.i_agree{
+    display: block;
+    color: #181818;
+    width: 100%;
+    margin-top: 25px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.i_agree label{
+    display: inline-block;
+    width: 100%;
+}
+#agree{
+    display: inline-block;
+    max-width: 20px;
+    margin-right: 11px;
+}
+.i_agree a{
+    color: #2B59C3;
+    text-decoration: none;
+}
+
+
+                    /*style_steps*/
+.style_steps{
+    padding-bottom: 150px;
+}
+.style_steps h3{
+    margin: 0 0 85px 0;
+}
+.step_img{
+    margin-right: 95px;
+    max-width: 285px;
+    width: 100%;
+}
+.step_img img{
+    margin-bottom: 23px;
+
+}
+.step_img h4{
+    color: #181818;
+}
+h5{
+    padding-top: 2px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    font:18px/25px '20 Kopeek';
+    color: #181818;
+    margin-bottom: 15px;
+}
+.row_style{
+    display: flex;
+    margin-bottom: 60px;
+}
+.text_creative_first{
+    max-width: 165px;
+}
+.text_creative_first p{
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text_creative_first:nth-of-type(3) {
+    margin: 0 30px;
+}
+.text_creative_first:last-of-type{
+    max-width: 200px;
+}
+
+                    /*compare_creative*/
+
+.row_compare{
+    display: flex;
+}
+.compare_creative{
+    padding-bottom: 166px;
+
+}
+.row_creative h2{
+    color: #868686;
+}
+.free_creative h2{
+    color: blue;
+}
+
+.blue_column {
+    background-color: #0000ff;
+    max-width: 160px;
+    width: 100%;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.freelancer,.free_creative, .compare_text{
+    max-width: 290px;
+    width: 100%;
+}
+.compare_title{
+    padding: 15px;
+}
+.row_creative :first-child{
+    border-radius: 10px 10px 0 0;
+}
+.big_company{
+    padding-right: 0;
+}
+.compare_text{
+    padding: 25px 15px;
+    border-bottom: solid 1px #868686;
+}
+.row_timing{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.row_timing .blue_column{
+    border-radius: 0 0 10px 10px;
+}
+.row_timing .compare_text{
+    border-bottom: none;
+}
+.free_creative{
+    border: solid 4px #0000ff;
+    border-bottom: solid 1px #868686;
+    border-top: none;
+}
+.row_creative .free_creative{
+    border-top: solid 4px #0000ff;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}
+
+.row_timing .free_creative{
+    border-bottom: solid 4px #0000ff;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
