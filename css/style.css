@@ -1,14 +1,44 @@
+@font-face {
+    font-family: '20 Kopeek Book';
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek.woff2') format('woff2'),
+    url('../fonts/20Kopeek.woff') format('woff'),
+    url('../fonts/20Kopeek.ttf') format('truetype'),
+    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 .main_banner{
     background-image: url(../images/11.png);
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    padding-top: 300px;
+    padding-top: 20%;
 }
 .main_banner.banner_2{
     background-image: url(../images/12.png);
@@ -31,7 +61,7 @@ header{
     padding-top: 31px;
 }
 .main_banner h1{
-    font-family: 20 Kopeek Book;
+    font-family: '20 Kopeek Book';
     font-size: 55px;
     line-height: 55px;
     letter-spacing: 0em;
@@ -40,7 +70,7 @@ header{
     margin-bottom: 20px;
 }
 .main_banner p{
-    font-family: 20 Kopeek Book;
+    font-family: '20 Kopeek Book';
     font-size: 34px;
     line-height: 37px;
     letter-spacing: 0em;
@@ -53,7 +83,7 @@ header{
     padding:23px 47px 23px 47px;
     border-radius: 40px;
     background-color: #fff;
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -62,7 +92,22 @@ header{
     color: #181818;
     text-decoration: none;
     margin-right: 20px;
+    transition: 0.5s;
 }
+.btn:hover{
+    background-color: #324aee;
+    color: white;
+}
+.btn:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #223ae2;
+    margin-right: 5px;
+}
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -72,7 +117,7 @@ header .container{
 }
 .logo_text p{
     margin-left: 22px;
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 15px;
     font-weight: 400;
     line-height: 19px;
@@ -91,7 +136,7 @@ header li{
     align-items: center;
 }
 header ul span{
-    font-family: 20 Kopeek;
+    font-family: '20 Kopeek';
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -112,3 +157,185 @@ header .social{
 header li{
     margin-left: 23px;
 }
+
+.style{
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background-color: #fff;
+}
+.style h2{
+    font-family: '20 Kopeek Book';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.style_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.style_img{
+    max-width: 635px;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.style_text p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    padding-left: 20px;
+}
+
+               /*//// !*LOGO AND NAME*! ////*/
+.logo_name{
+    margin-bottom: 120px;
+}
+.logo_name h2{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-bottom: 40px;
+}
+.logo_name ul{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_name ul li{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    display: flex;
+    /*margin-right: 30px;*/
+    max-width: 122px;
+}
+.logo_name ul li:last-child{
+    margin-right: 0;
+    margin-left: 90px;
+    margin-bottom: 16px;
+    max-width: 300px;
+    width: 100%;
+}
+.logo_name li span{
+    max-width: 260px;
+    width: 100%;
+}
+.logo_name ul li p:nth-child(3){
+    max-width: 122px}
+.logo_name ul li:first-child{
+    /*margin-right: 67px;*/
+}
+.logo_name ul p{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    padding-top: 25px;
+    margin-left: 8px;
+}
+.logo_name span{
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    max-width: 260px;
+    width: 100%;
+}
+
+.style_cost{
+    padding-bottom: 133px;
+}
+
+.style_cost .container{
+    display: flex;
+    justify-content: space-between;
+}
+.style_cost_img h2{
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: '20 Kopeek Book';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: black;
+}
+.style_cost_text{
+    padding-top: 55px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-right: 75px;
+}
+.style_cost_text p{
+    padding-left: 13px;
+    padding-right: 15px;
+}
+.text_span{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color:#2B59C3;
+    display: inline-block;
+    padding: 11px 7px 11px 13px;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+
+
+.progress{
+    padding-bottom: 100px;
+}
+.level{
+    height: 50px;
+    width: 1000px;
+    background-color: dimgrey;
+}
+
+.level:before{
+    content: "20%";
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background-color:blue;
+}
+
+
+
+
+
+
