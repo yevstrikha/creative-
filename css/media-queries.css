@@ -1,7 +1,152 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
+    .container{
+        padding: 0 20px;
+    }
+    .logo_name h2{
+        font-size: 45px;
+        line-height: 45px;
+        margin-right: 0;
+    }
+    .style_text p{
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0;
+    }
+    .style_cost_text{
+        margin-right: 30px;
+        padding-top: 45px;
+    }
+    .style_cost_img .style_img{
+        max-width: 530px;
+        width: 100%;
+    }
+    .style_cost_img h3{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .style_cost_text p, .text_span{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .logo_name ul li{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .logo_name ul p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .portfolio h2{
+        font-size: 45px;
+        line-height: 45px;
+        margin-right: 125px;
+    }
+    .portfolio p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .gide_img{
+        max-width: 530px;
+        width: 100%;
+    }
+    .gide_img img{
+        width: 100%;
+    }
+    .gide_text{
+        max-width: 380px;
+        width: 100%;
+    }
+    .gide_text h4{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .gide_text p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+.gide_first_text{
+    padding: 14px 5px 14px 12px;
+}
+.gide_last_text{
+    padding: 0 5px 14px 12px;
 
 }
-@media only screen and (max-width: 992px) {
+.application h3{
+    font-size: 34px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+    .application h4{
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    .application .btn{
+        display: block;
+    }
+
+    .application form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        max-width: 450px;
+        width: 100%;
+    }
+    .f_name_form, .l_name_form {
+        max-width: 450px;
+    }
+    .f_name_form{
+        order: 1;
+    }
+    .l_name_form{
+        order: 2;
+        margin-right: 0;
+    }
+    .button_submit{
+        order: 4;
+        margin-top: 30px;
+    }
+   .i_agree{
+        order: 3;
+    }
+   .compare_title h3{
+       font-size: 34px;
+       line-height: 38px;
+   }
+    .freelancer,.free_creative, .compare_text{
+        max-width: 243px;
+    }
+    .warranty h2{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .warranty_item :first-of-type{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .warranty_item :last-of-type{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .reach_us{
+        margin-right:60px;
+    }
+
+    .reach_us h3{
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .reach_us .f_name_contact, .your_contact{
+        max-width: 370px;
+    }
+    .i_agree{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 993px) {
 
 }
 @media only screen and (max-width: 767px) {

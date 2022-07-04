@@ -38,7 +38,7 @@ ul{
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    padding-top: 20%;
+    padding-top: 300px;
 }
 .main_banner.banner_2{
     background-image: url(../images/12.png);
@@ -52,6 +52,7 @@ ul{
 .container{
     margin: auto;
     max-width: 1110px;
+
 }
 header{
     position: absolute;
@@ -101,6 +102,7 @@ header .container{
     display: flex;
     justify-content: space-between;
 }
+
 .logo_text{
     display: flex;
 }
@@ -146,6 +148,10 @@ header li{
     margin-left: 23px;
 }
 
+
+                        /*S T Y L E */
+
+
 .style{
     padding-top: 70px;
     padding-bottom: 150px;
@@ -169,7 +175,13 @@ header li{
     max-width: 635px;
     width: 100%;
     margin-right: 30px;
-    margin-top: 10px;
+}
+.style_img img{
+    width: 100%;
+}
+.style_text{
+    max-width: 635px;
+    width: 100%;
 }
 .style_text p{
     font-family: '20 Kopeek';
@@ -270,6 +282,8 @@ header li{
     color: black;
 }
 .style_cost_text{
+    max-width: 400px;
+    width: 100%;
     padding-top: 55px;
     font-family: '20 Kopeek';
     font-size: 18px;
@@ -298,6 +312,11 @@ header li{
     border-radius: 5px;
     box-sizing: content-box;
 }
+
+
+
+                    /*P O R T F O L I O*/
+
 
 .portfolio{
 text-align: center;
@@ -378,6 +397,9 @@ text-align: center;
     background-color: #287cb0;
 }
 
+
+                    /*G I D E _ L I N E*/
+
 .gide_line {
     padding-bottom: 77px;
 }
@@ -408,7 +430,7 @@ h3{
     letter-spacing: 0em;
     text-align: left;
 }
-.gide_text p:last-of-type{
+.gide_last_text{
     padding: 0 25px 0 14px;
 }
 .gide_first_text{
@@ -460,6 +482,7 @@ h4{
     width: 100%;
     display: inline-block;
 }
+
 .application input{
     padding: 23px 29px;
     border-radius: 10px;
@@ -469,12 +492,14 @@ h4{
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
     color: #868686;
 }
-.btn{
+.button_submit{
     display: inline-block;
+
+}
+.btn{
     text-decoration: none;
     font-family: '20 Kopeek';
     font-size: 18px;
@@ -598,9 +623,13 @@ h5{
     max-width: 290px;
     width: 100%;
 }
+
 .compare_title{
+    max-width: 290px;
+    width: 100%;
     padding: 15px;
 }
+
 .row_creative :first-child{
     border-radius: 10px 10px 0 0;
 }
@@ -719,6 +748,8 @@ h5{
     max-width: 20px;
     margin-bottom: 48px;
 }
+
+.f_name_contact, .your_contact
 .our_contact p:nth-of-type(2){
     margin: 15px 0;
 }
@@ -735,6 +766,7 @@ h5{
     display: flex;
 }
 .reach_us{
+    max-width: 450px;
     margin-right: 125px;
 }
 
@@ -774,7 +806,6 @@ h5{
 .about_links .news:last-of-type {
     margin-right: 0;
 }
-
 
 
 
